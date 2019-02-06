@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optional.NET", "Optional.NET\Optional.NET.csproj", "{9874FB90-E083-4357-953F-44862AECB49E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Optional.NET", "Optional.NET\Optional.NET.csproj", "{9874FB90-E083-4357-953F-44862AECB49E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optional.NET.Test", "Optional.NET.Test\Optional.NET.Test.csproj", "{80BD699E-2DF0-4AC1-BF75-F9C06924CF60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Optional.NET.Test", "Optional.NET.Test\Optional.NET.Test.csproj", "{80BD699E-2DF0-4AC1-BF75-F9C06924CF60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BF81CA7E-B726-456A-A5C5-C064F1946201}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
