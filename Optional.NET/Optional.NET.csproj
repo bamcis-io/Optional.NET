@@ -1,7 +1,31 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFrameworks>netstandard1.6;netstandard2.0;net45</TargetFrameworks>
+    <NetStandardImplicitPackageVersion>1.6</NetStandardImplicitPackageVersion>
+    <RootNamespace>BAMCIS.Util</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Threading" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.6'">
+    <PackageReference Include="System.Threading.Thread">
+      <Version>4.3.0</Version>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="System.Threading.Thread">
+      <Version>4.3.0</Version>
+    </PackageReference>
+  </ItemGroup>
 
 </Project>
