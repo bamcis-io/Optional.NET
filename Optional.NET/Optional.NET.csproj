@@ -4,6 +4,19 @@
     <TargetFrameworks>netstandard1.6;netstandard2.0;net45</TargetFrameworks>
     <NetStandardImplicitPackageVersion>1.6</NetStandardImplicitPackageVersion>
     <RootNamespace>BAMCIS.Util</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Michael Haken</Authors>
+    <Company>bamcis.io</Company>
+    <Description>A .NET Core implementation of the Java Optional class.</Description>
+    <Copyright>bamcis.io</Copyright>
+    <PackageProjectUrl>https://github.com/bamcis-io/Optional.NET</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bamcis-io/Optional.NET</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Optional</PackageTags>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/bamcis-io/Optional.NET/master/LICENSE</PackageLicenseUrl>
+    <PackageId>BAMCIS.Optional.NET</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
